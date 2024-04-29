@@ -36,7 +36,7 @@
                 </v-form>
 
             </v-sheet>
-            <aside class="mx">
+            <aside class="mx-5">
                 <v-img src="@/assets/Jurnalisa.png"/>
                 <v-img src="@/assets/Logo-Login.png" width="300px"
                 height="500px"/>
