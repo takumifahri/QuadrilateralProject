@@ -18,7 +18,7 @@
         </nav>
         <!-- Login form -->
         <nav>
-          <v-btn class="text-h5" href="#Login" append-icon="mdi-account"></v-btn>
+          <v-btn class="text-h5" href="/login" append-icon="mdi-account"></v-btn>
         </nav>
     </v-toolbar>
     <v-divider :thickness="1" class="bg-black"></v-divider>
@@ -39,6 +39,6 @@
 
 <script>
     export default {
-        name : 'header'
+        name : 'headers'
     }
 </script>
