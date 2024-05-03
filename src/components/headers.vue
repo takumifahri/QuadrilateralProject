@@ -1,6 +1,7 @@
 <template>
     <v-toolbar
-      class="px-10 py-3  bg-indigo-darken-4 "
+      class="px-10 py-3"
+      style="background-color: #111F4D; color: white;"
       comfortable>
         <nav class="space-between py-4">
           <!-- Logo Jurnalisa -->
@@ -9,7 +10,7 @@
         </nav>
 
         <v-spacer></v-spacer>
-        <nav class="w-25">
+        <nav class="w-25 mx-5">
           <!-- Search Bar -->
           <v-text-field
           single-line
@@ -18,21 +19,23 @@
         </nav>
         <!-- Login form -->
         <nav>
-          <v-btn class="text-h5" href="/login" append-icon="mdi-account"></v-btn>
+          <v-btn class="text-h5" href="/lobbiess" ><v-icon>mdi-account</v-icon></v-btn>
         </nav>
     </v-toolbar>
     <v-divider :thickness="1" class="bg-black"></v-divider>
 
 
       <!-- nav di bawahnya  -->
-    <v-toolbar class="px-10 py-1 bg-indigo-darken-4">
-        <div class="justify-center d-flex">
-          <v-btn class="text-h6 px-10">HOME</v-btn>
-          <v-btn class="text-h6 px-10">NEWS</v-btn>
-          <v-btn class="text-h6 px-10">KEGIATAN</v-btn>
-          <v-btn class="text-h6 px-10">FORUM DISKUSI</v-btn>
-          <v-btn class="text-h6 px-10">RADIO</v-btn>
-          <v-btn class="text-h6 px-10">ABOUT US</v-btn>
+    <v-toolbar 
+    class="px-16 py-1"
+    style="background-color: #111F4D; color: white;">
+        <div >
+          <v-btn class="text-h6 px-16">HOME</v-btn>
+          <v-btn class="text-h6 px-16">NEWS</v-btn>
+          <v-btn class="text-h6 px-16">KEGIATAN</v-btn>
+          <v-btn class="text-h6 px-16">FORUM DISKUSI</v-btn>
+          <v-btn class="text-h6 px-16">RADIO</v-btn>
+          <v-btn class="text-h6 px-16">ABOUT US</v-btn>
         </div>
     </v-toolbar>
 </template>

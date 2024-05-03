@@ -14,11 +14,22 @@ import home from "@/pages/home.vue";
 
 import Loginn from "@/pages/loginn.vue";
 
+import regists from "@/pages/registss.vue";
+import Lobby from "@/pages/Lobby.vue";
+import ChangePW from "@/pages/changePW.vue";
+import ResetPW from "@/pages/resetPW.vue";
+
+
+
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes : [
-    {path: "/", component: home },
-    {path: "/login", component: Loginn }
+    {path: "/", component: home},
+    {path: "/login", component: Loginn },
+    {path: "/regists", component: regists},
+    {path: "/lobbiess", component: Lobby},
+    {path: "/changePassword", component: ChangePW},
+    {path: "/resetPassword", component: ResetPW}
   ]
 });
 
