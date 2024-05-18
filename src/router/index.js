@@ -18,7 +18,7 @@ import regists from "@/pages/registss.vue";
 import Lobby from "@/pages/Lobby.vue";
 import ChangePW from "@/pages/changePW.vue";
 import ResetPW from "@/pages/resetPW.vue";
-
+import drawerApp from "../pages/drawerApp.vue";
 
 
 const router = createRouter({
@@ -28,8 +28,9 @@ const router = createRouter({
     {path: "/login", component: Loginn },
     {path: "/regists", component: regists},
     {path: "/lobbiess", component: Lobby},
-    {path: "/changePassword", component: ChangePW},
-    {path: "/resetPassword", component: ResetPW}
+    {path: "/changePassword", component: ChangePW}, 
+    {path: "/resetPassword", component: ResetPW},
+    {path: "/drawerUsers", component: drawerApp}
   ]
 });
 
