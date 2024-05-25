@@ -15,7 +15,9 @@
           <v-text-field
           single-line
           hide-details
-          append-icon="mdi-magnify"></v-text-field>
+          append-icon="mdi-magnify"
+          placeholder="cari tokoh, topik, atau peristiwa"
+          ></v-text-field>
         </nav>
         <!-- Login form -->
         <nav>
@@ -29,14 +31,14 @@
     <v-toolbar 
     class="px-16 py-1"
     style="background-color: #111F4D; color: white;">
-        <div >
+        <v-container class="d-flex justify-center" fluid>
           <v-btn class="text-h6 px-16">HOME</v-btn>
           <v-btn class="text-h6 px-16">NEWS</v-btn>
           <v-btn class="text-h6 px-16">KEGIATAN</v-btn>
-          <v-btn class="text-h6 px-16">FORUM DISKUSI</v-btn>
+          <!-- <v-btn class="text-h6 px-16">FORUM DISKUSI</v-btn> -->
           <v-btn class="text-h6 px-16">RADIO</v-btn>
           <v-btn class="text-h6 px-16">ABOUT US</v-btn>
-        </div>
+        </v-container>
     </v-toolbar>
 </template>
 
