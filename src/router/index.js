@@ -18,8 +18,8 @@ import regists from "@/pages/registss.vue";
 import Lobby from "@/pages/Lobby.vue";
 import ChangePW from "@/pages/changePW.vue";
 import ResetPW from "@/pages/resetPW.vue";
-import drawerApp from "../pages/drawerApp.vue";
-
+// import drawerApp from "../pages/drawerApp.vue";
+import dashboardPage from "@/pages/dashboardPage.vue";
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -30,7 +30,7 @@ const router = createRouter({
     {path: "/lobbiess", component: Lobby},
     {path: "/changePassword", component: ChangePW}, 
     {path: "/resetPassword", component: ResetPW},
-    {path: "/drawerUsers", component: drawerApp}
+    {path: "/dashboard", component: dashboardPage}
   ]
 });
 
