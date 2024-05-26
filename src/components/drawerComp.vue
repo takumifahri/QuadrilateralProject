@@ -1,5 +1,5 @@
 <template>
-    <v-card >
+    
       <v-layout style="height: 100vh">
         <v-navigation-drawer
           expand-on-hover
@@ -26,11 +26,11 @@
         
         <!-- <v-main style="height: 100vh">Hello</v-main> -->
       </v-layout>
-    </v-card>
+
 </template>
 
 <script>
     export default {
-        name: 'drawerUsers'
+        name: 'drawerComp'
     }
 </script>
