@@ -17,12 +17,12 @@ export default {
         labels: this.data.map(item => item.day_of_week),
         datasets: [
           {
-            label: 'Last Week',
+            label: 'Minggu Lalu',
             backgroundColor: '#f87979',
             data: this.data.map(item => item.last_week)
           },
           {
-            label: 'This Week',
+            label: 'Minggu Ini',
             backgroundColor: '#7fbf7f',
             data: this.data.map(item => item.this_week)
           }

@@ -4,20 +4,16 @@
       <h1 class="font-bold text-3xl font-sans">Dashboard</h1>
       
       <v-row>
-      <v-col cols="6">
-        <!-- Chart -->
-        <!-- <v-card class="pa-4"> -->
+        <v-col cols="6">
+          <!-- Chart -->
           <VisitorBarChart :data="visitorData" />
-        <!-- </v-card> -->
-      </v-col>
+        </v-col>
 
-      <v-col cols="6">
-        <!-- Recent Comments -->
-        <!-- <v-card class="pa-4"> -->
+        <v-col cols="6">
+          <!-- Komentar Terbaru -->
           <RecentComments :comments="recentComments" />
-        <!-- </v-card> -->
-      </v-col>
-    </v-row>
+        </v-col>
+      </v-row>
     </v-container>
   </v-container>
 </template>

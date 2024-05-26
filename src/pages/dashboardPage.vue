@@ -1,9 +1,9 @@
 <template>
-    <headerAdmin />
+    <headers />
     <dashboardComp/>
 </template>
 
 <script setup>
-    import headerAdmin from "@/components/headerAdmin.vue";
+    import headers from "@/components/headers.vue";
     import dashboardComp from '@/components/dashboardComp.vue'
 </script>
