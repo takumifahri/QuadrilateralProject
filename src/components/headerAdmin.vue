@@ -37,6 +37,15 @@
             <v-list-item-title>Comments</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+
+        <v-list-item link to="/organisasi">
+          <v-list-item-icon>
+            <v-icon>mdi-organisasi</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Organisasi</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
   </template>
